@@ -1,0 +1,25 @@
+.NavBar{
+    background-color: greenyellow;
+    }
+
+.NavBar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.NavBar li{
+    margin-top: 1.875rem;
+}
+.NavBar a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.875rem;
+}
+.contenedorCarrito{
+    display:flex ;
+    font-size: 1.5625rem;
+}
+.contenedorCarrito img{
+    height: 2.5rem;
+   
+}
