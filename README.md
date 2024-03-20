@@ -1,6 +1,6 @@
-# PRIMERA PRE-ENTREGA DEL CURSO DE REACT JS DE CODER HOUSE
+# SEGUNDA PRE-ENTREGA DEL CURSO DE REACT JS DE CODER HOUSE
 ## MANUEL LOPEZ REY
 ### TEMAS QUE SE APLICARON EN ESTA ENTREGA:
-- Instalacion de node js y uso de vite.
-- Creacion de componentes y uso de los mismos en conjunto.
-- Llamado a props y estilos dentro de componentes.
+- Uso de React Router para la navegacion de la pagina.
+- Uso de un archivo JS llamado asyncMock para el uso de arrays y funciones.
+- Uso de Hooks como useState o useEffect.

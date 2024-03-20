@@ -1,4 +1,4 @@
-import IconoCarrito from './assets/carrito.png'
+import IconoCarrito from '../../assets/carrito.png'
 export default function CartWidget () {
     return(
         <>
