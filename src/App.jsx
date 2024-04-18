@@ -7,7 +7,6 @@ import CategoryProdComp from './components/categories/CategoryProdComp';
 import ContactComp from './components/contact/ContactComp';
 import ItemListConainer from './components/products/ItemListContainer'
 
-
 function App() {
   
   return (
@@ -18,7 +17,7 @@ function App() {
     <Routes>
           <Route exact path="/" element={<HomeComp />} />
           <Route exact path="/products" element={<ItemListConainer />} />
-          <Route exact path="/product/:prodId" element={<SingleProdComp />} />
+          <Route exact path="/product/:id" element={<SingleProdComp />} />
           <Route
             exact
             path="/categories/:category"
@@ -27,6 +26,7 @@ function App() {
           <Route exact path="/contact" element={<ContactComp />} />
         </Routes>
       </BrowserRouter>
+
     </>
   )
 }
